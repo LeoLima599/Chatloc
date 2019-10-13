@@ -258,6 +258,7 @@ class ChatAdapter extends RecyclerView.Adapter <ChatViewHolder>{
                             m.getEmail()
                     )
             );
+            holder.btnLoc.setVisibility(View.GONE);
             holder.mensagemTextView.setText(m.getTexto());
         }
     }
